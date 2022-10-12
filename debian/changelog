@@ -1,0 +1,29 @@
+lua-mediator (1.1.2-0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Update to debhelper compat 13 and use debhelper-compat Build-Depends
+  * control:
+    + Change Vcs-* URLs from Alioth to Salsa
+    + Set Rules-Requires-Root: no
+    + Declare compliance with Policy 4.5.0
+  * copyright:
+    + Use https URL for copyright format
+  * Run upstream's test both at build time and for CI.  (Closes: #961900)
+  * Remove unnecessary rw-build-tree Restriction for autopkgtests
+
+ -- James McCoy <jamessan@debian.org>  Mon, 01 Jun 2020 22:27:14 -0400
+
+lua-mediator (1.1.2-0-2) unstable; urgency=medium
+
+  * Do not rename mediator.lua to mediator_lua.lua
+  * Cleanup packaging files, get rid of the -dev binary package
+  * Bump Standards-Version to 3.9.7, no changes required
+  * Add support for Lua5.3
+
+ -- Jason Pleau <jason@jpleau.ca>  Sun, 21 Feb 2016 12:51:50 -0500
+
+lua-mediator (1.1.2-0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #784103)
+
+ -- Jason Pleau <jason@jpleau.ca>  Fri, 19 Jun 2015 21:46:00 -0400

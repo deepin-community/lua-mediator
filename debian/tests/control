@@ -1,0 +1,5 @@
+Tests: dh-lua-tests
+Depends:
+ dh-lua,
+ lua-busted,
+ @,
